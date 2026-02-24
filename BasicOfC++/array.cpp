@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// sum of two array
 int main(){
     int arr1[]={1,2,3};
     int arr2[]={4,5,6};
