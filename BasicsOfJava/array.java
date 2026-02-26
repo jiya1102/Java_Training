@@ -3,7 +3,7 @@ package BasicsOfJava;
 public class array {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 7, 3, 4, 10, 8,  };
-        // int x = 9;
+        int x = 9;
         // for(int i=arr.length-1;i>=0;i--){//print reverse of array
         // System.out.println(arr[i]);
         // }
@@ -39,12 +39,12 @@ public class array {
         // System.out.println("maximam value is:" + max);
         // System.out.println("second maximum value is:" + secondmax);
 
-        // for (int i = 0; i < arr.length; i++) {// print index of sum of two elements
-        //     for (int j = i + 1; j < arr.length; j++) {
-        //         if (arr[i] + arr[j] == x) {
-        //             System.out.println("indices are:" + i + " " + j);
-        //         }
-        //     }
-        // }
+        for (int i = 0; i < arr.length; i++) {// print index of sum of two elements
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] + arr[j] == x) {
+                    System.out.println("indices are:" + i + " " + j);
+                }
+            }
+         }
     }
 }
