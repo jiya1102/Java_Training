@@ -1,5 +1,5 @@
 package BasicsOfJava;
-
+//abstraction using abstract keyword.
 abstract class carr{
    abstract void color();
    void run(){
