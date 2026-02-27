@@ -4,13 +4,16 @@ class Atm{
     private int paisa;
 
     public Atm(int p){
-        this.paisa=p;
+        this.paisa=paisa + p;
     }
 
     public int gatter(int a){
+        if(paisa>0 && paisa<a){
         paisa=paisa-a;
-        return paisa;
+       
     }
+    return paisa;
+}
 }
 
 public class Encapsulation {
